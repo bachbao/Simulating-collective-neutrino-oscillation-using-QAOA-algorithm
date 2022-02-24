@@ -16,7 +16,7 @@ neutrinos. However as stated above, quantum computers hold the promise to overco
 ## 2. Spin model for neutrino oscillation
 In our case, we are considering two-flavor case, therefore our system can be expressed as direction of momentum (denoted by q_i) and an amplitude for a neutrino of each energy E_i. The amplitudes that describe the being in the electron flavor or in a heavy (muon or tau) can be encoded in an SU(2) spinor basis. In this basis, the Hamiltonian can be written in terms of Pauli operators which can be charaterized as the sum of a one-body term, describing vacuum and forward scattering in matter and a two-body term, showing the neutrino-neutrino forward-scattering.
 
-Here we lend our final Hamiltonian from [https://arxiv.org/pdf/2102.12556.pdf?fbclid=IwAR2tZhjENa6-5z-XVVKu4VEPcE05QslG6C4XifwfqrPfNmiFzuoe97Sm5tA] with the redefined value.
+Here we lend our final Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf?fbclid=IwAR2tZhjENa6-5z-XVVKu4VEPcE05QslG6C4XifwfqrPfNmiFzuoe97Sm5tA) with the their redefined value as our base model. Our job then is just simulate the Hamiltonian from the model.
 
 ## 3. Applying QAOA to achieve Hamiltonian
 
