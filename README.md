@@ -1,4 +1,4 @@
-# Simulating collective neutrino oscillation using QAOA algorithm
+# Simulating collective neutrino oscillation with QAOA
 
 ## 1. Introduction
 In the out-of-equilibrium collective dynamics of a neutrino cloud with a high density of neutrinos, the existence of neutrino-neutrino interaction can trigger collective flavor oscillations. This phenomenon has not been profoundly understood due to the complication of solving for the real-time evolution of the strongly coupled many-body system. Nevertheless, scientists and researchers believe that by the use of quantum computers, we can gain a deeper insight into these kinds of phenomena. Here, we present a new way to simulate a small system - "two-flavor case" of interacting neutrinos using the IBMQ quantum devices.
