@@ -23,7 +23,8 @@ Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf
 The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
 ![a](https://latex.codecogs.com/svg.latex?\Large&space;H=\sum_{k=1}^N\overrightarrow{b}\cdot\overrightarrow{\sigma_k}+\sum_{p<q}^NJ_{pq}\overrightarrow{\sigma_p}\cdot\overrightarrow{\sigma_q})
 
-with the external field ![a](https://latex.codecogs.com/svg.latex?\Large&space;\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)) and the pair coupling matrix ![a](https://latex.codecogs.com/svg.latex?\Large&space;J_{pq}%20=%201%20-%20\cos(\theta_{pq})), where ![a](https://latex.codecogs.com/svg.latex?\Large&space;\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}).
+with the external field <img src="https://latex.codecogs.com/svg.image?\overrightarrow{b}&space;=&space;(b^x,b^y,b^z)&space;=&space;\left(\sqrt{1-0.925^2},&space;0,&space;-0.925\right)" title="\overrightarrow{b} = (b^x,b^y,b^z) = \left(\sqrt{1-0.925^2}, 0, -0.925\right)" /> 
+![a](https://latex.codecogs.com/svg.latex?\Large&space;\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)) and the pair coupling matrix ![a](https://latex.codecogs.com/svg.latex?\Large&space;J_{pq}%20=%201%20-%20\cos(\theta_{pq})), where ![a](https://latex.codecogs.com/svg.latex?\Large&space;\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}).
 
 <img src="https://latex.codecogs.com/svg.image?J_{pq}&space;=&space;1&space;-&space;\cos(\theta_{pq})" title="J_{pq} = 1 - \cos(\theta_{pq})" />
 ## 4. Result
