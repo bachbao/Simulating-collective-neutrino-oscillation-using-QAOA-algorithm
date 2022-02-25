@@ -27,4 +27,7 @@ The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each
 
 with the external field <img src="https://render.githubusercontent.com/render/math?math=\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)"> and the pair coupling matrix <img src="https://render.githubusercontent.com/render/math?math=J_{pq}%20=%201%20-%20\cos(\theta_{pq})">, where <img src="https://render.githubusercontent.com/render/math?math=\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}">.
 
+We trotterize the induced time evolution as
+<img src="https://render.githubusercontent.com/render/math?math=e^{-iHt}&space;=&space;\prod_{i=1}^n&space;e^{-iA_1\alpha_i&space;t}e^{-iA_2\beta_i&space;t}e^{-iA_3\gamma_i&space;t}e^{-iB_1&space;\delta_i&space;t}e^{-iB_2&space;\epsilon_i&space;t}e^{-iB_3&space;\kappa_i&space;t}" title="e^{-iHt} = \prod_{i=1}^n e^{-iA_1\alpha_i t}e^{-iA_2\beta_i t}e^{-iA_3\gamma_i t}e^{-iB_1 \delta_i t}e^{-iB_2 \epsilon_i t}e^{-iB_3 \kappa_i t}">
+
 ## 4. Result
