@@ -19,6 +19,7 @@ In our case, we are considering two-flavor case, therefore our system can be exp
 Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf?fbclid=IwAR2tZhjENa6-5z-XVVKu4VEPcE05QslG6C4XifwfqrPfNmiFzuoe97Sm5tA) with the their redefined value as our base model. Our job then is just simulate the Hamiltonian from the model.
 
 ## 3. Applying QAOA to achieve Hamiltonian 
+(Interested reader might find detailed notes in .ipynb file helpful)
 <img src="https://render.githubusercontent.com/render/math?math=">
 
 The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
