@@ -33,8 +33,10 @@ We trotterize the induced time evolution as
 <img src="https://latex.codecogs.com/svg.image?\begin{align}A_1%20&=%20\sum_{k=1}^N%20b^x%20\sigma_k^x,%20&A_2%20&=%20\sum_{k=1}^N%20b^y%20\sigma_k^y,%20&A_3%20&=%20\sum_{k=1}^N%20b^z%20\sigma_k^z,%20\notag\\B_1%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^x%20\sigma_q^x,%20&B_2%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^y%20\sigma_q^y,%20&B_3%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^z%20\sigma_q^z.%20\notag\end{align}">
 
 Those unitaries can be implemented by a sequence single- and two-qubit rotation gates. In particular,
-
+<p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\begin{align}e^{-iA_1\alpha_it}=\prod_{k=1}^N\text{RX}_k(2\alpha_it)\notag\\e^{-iA_2\beta_it}=\prod_{k=1}^N\text{RY}_k(2\beta_it)\notag\\e^{-iA_3\gamma_it}=\prod_{k=1}^N\text{RZ}_k(2\gamma_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\delta_it)\notag\\e^{-iB_1\epsilon_i}=\prod_{p<q}^N\text{RYY}_k(2J_{pq}\epsilon_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\kappa_it)\notag\end{align}">
+</p>
+  
 
 ![a](https://latex.codecogs.com/svg.latex?\Large&space;\begin{align}e^{-iA_1\alpha_it}=\prod_{k=1}^N\text{RX}_k(2\alpha_it)\notag\\e^{-iA_2\beta_it}=\prod_{k=1}^N\text{RY}_k(2\beta_it)\notag\\e^{-iA_3\gamma_it}=\prod_{k=1}^N\text{RZ}_k(2\gamma_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\delta_it)\notag\\e^{-iB_1\epsilon_i}=\prod_{p<q}^N\text{RYY}_k(2J_{pq}\epsilon_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\kappa_it)\notag\end{align}) 
 
