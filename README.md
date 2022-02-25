@@ -44,17 +44,20 @@ Those unitaries can be implemented by a sequence single- and two-qubit rotation 
 ## 4. Result
 (See the notebook for detailed settings)
 ### Experiment 1: 2 qubits - 1 layer - Time length of 1
-![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
-![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+![Exp1_Noiseless](/figures/exp1_noiseless.png "Noiseless")
+![Exp1_Noisy](/figures/exp1_noisy.png "Noisy")
 
 ### Experiment 2: 3 qubits - 2 layers - Time length of 2
-![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
-![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+![Exp2_Noiseless](/figures/exp2_noiseless.png "Noiseless")
+![Exp2_Noisy](/figures/exp2_noisy.png "Noisy")
 
 ### Experiment 3: 4 qubits - 4 layers - Time length of 3
-![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
-![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+![Exp3_Noiseless](/figures/exp3_noiseless.png "Noiseless")
 
 ### Experiment 4: 4 qubits - 4 layers - Time length from 1 to 6
-![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
-![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+![Exp4_Noiseless](/figures/exp4.png "exp4")
+
+## About us
+[Trong Duong Dinh](https://github.com/MyEntangled)- Korea Advanced Institute of Science and Technology, Year 3
+
+[Bao Bach Gia](https://github.com/bachbao) - Ho Chi Minh University of Technology, Year 3 
