@@ -20,7 +20,8 @@ Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf
 
 ## 3. Applying QAOA to achieve Hamiltonian
 
-The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
+The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by <img src="https://render.githubusercontent.com/render/math?math=H=\sum_{k=1}^N\overrightarrow{b}\cdot\overrightarrow{\sigma_k}+\sum_{p<q}^NJ_{pq}\overrightarrow{\sigma_p}\cdot\overrightarrow{\sigma_q}">
+
 ![a](https://latex.codecogs.com/svg.latex?\Large&space;H=\sum_{k=1}^N\overrightarrow{b}\cdot\overrightarrow{\sigma_k}+\sum_{p<q}^NJ_{pq}\overrightarrow{\sigma_p}\cdot\overrightarrow{\sigma_q})
 
 with the external field <img src="https://latex.codecogs.com/svg.image?\overrightarrow{b}&space;=&space;(b^x,b^y,b^z)&space;=&space;\left(\sqrt{1-0.925^2},&space;0,&space;-0.925\right)" title="\overrightarrow{b} = (b^x,b^y,b^z) = \left(\sqrt{1-0.925^2}, 0, -0.925\right)" /> 
