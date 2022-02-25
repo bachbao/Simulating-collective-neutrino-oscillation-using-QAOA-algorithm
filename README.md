@@ -42,3 +42,19 @@ Those unitaries can be implemented by a sequence single- and two-qubit rotation 
   
 
 ## 4. Result
+(See the notebook for detailed settings)
+### Experiment 1: 2 qubits - 1 layer - Time length of 1
+![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
+![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+
+### Experiment 2: 3 qubits - 2 layers - Time length of 2
+![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
+![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+
+### Experiment 3: 4 qubits - 4 layers - Time length of 3
+![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
+![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
+
+### Experiment 4: 4 qubits - 4 layers - Time length from 1 to 6
+![Noiseless](https://myoctocat.com/assets/images/base-octocat.svg)
+![Noisy](https://myoctocat.com/assets/images/base-octocat.svg)
