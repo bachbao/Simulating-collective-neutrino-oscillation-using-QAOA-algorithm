@@ -28,6 +28,6 @@ The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each
 with the external field <img src="https://render.githubusercontent.com/render/math?math=\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)"> and the pair coupling matrix <img src="https://render.githubusercontent.com/render/math?math=J_{pq}%20=%201%20-%20\cos(\theta_{pq})">, where <img src="https://render.githubusercontent.com/render/math?math=\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}">.
 
 We trotterize the induced time evolution as
-<img src="https://render.githubusercontent.com/render/math?math=e^{-iHt}=\prod_{i=1}^ne^{-iA_1\alpha_it}e^{-iA_2\beta_it}e^{-iA_3\gamma_it}e^{-iB_1\delta_it}e^{-iB_2\epsilon_it}e^{-iB_3\kappa_it}">
-
+<img src="https://render.githubusercontent.com/render/math?math=e^{-iHt}=\prod_{i=1}^ne^{-iA_1\alpha_it}e^{-iA_2\beta_it}e^{-iA_3\gamma_it}e^{-iB_1\delta_it}e^{-iB_2\epsilon_it}e^{-iB_3\kappa_it}">, where
+<img src="https://latex.codecogs.com/png.image?\dpi{110}%20\begin{align}A_1%20&=%20\sum_{k=1}^N%20b^x%20\sigma_k^x,%20&A_2%20&=%20\sum_{k=1}^N%20b^y%20\sigma_k^y,%20&A_3%20&=%20\sum_{k=1}^N%20b^z%20\sigma_k^z,%20\notag\\B_1%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^x%20\sigma_q^x,%20&B_2%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^y%20\sigma_q^y,%20&B_3%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^z%20\sigma_q^z.%20\notag\end{align}">
 ## 4. Result
