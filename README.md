@@ -36,5 +36,4 @@ A_1&=\sum_{k=1}^Nb^x\sigma_k^x,&A_2&=\sum_{k=1}^Nb^y\sigma_k^y,&A_3&=\sum_{k=1}^
 
 <img src="https://latex.codecogs.com/svg.image?\begin{align}A_1%20&=%20\sum_{k=1}^N%20b^x%20\sigma_k^x,%20&A_2%20&=%20\sum_{k=1}^N%20b^y%20\sigma_k^y,%20&A_3%20&=%20\sum_{k=1}^N%20b^z%20\sigma_k^z,%20\notag\\B_1%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^x%20\sigma_q^x,%20&B_2%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^y%20\sigma_q^y,%20&B_3%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^z%20\sigma_q^z.%20\notag\end{align}">
 
-<img src="https://latex.codecogs.com/png.image?\dpi{110}%20\begin{align}A_1%20&=%20\sum_{k=1}^N%20b^x%20\sigma_k^x,%20&A_2%20&=%20\sum_{k=1}^N%20b^y%20\sigma_k^y,%20&A_3%20&=%20\sum_{k=1}^N%20b^z%20\sigma_k^z,%20\notag\\B_1%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^x%20\sigma_q^x,%20&B_2%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^y%20\sigma_q^y,%20&B_3%20&=%20\sum_{p%3Cq}^N%20J_{pq}%20\sigma_p^z%20\sigma_q^z.%20\notag\end{align}">
 ## 4. Result
