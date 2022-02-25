@@ -39,7 +39,7 @@ Those unitaries can be implemented by a sequence single- and two-qubit rotation 
 <img src="https://render.githubusercontent.com/render/math?math=\begin{align}e^{-iA_1\alpha_it}=\prod_{k=1}^N\text{RX}_k(2\alpha_it)\notag\\e^{-iA_2\beta_it}=\prod_{k=1}^N\text{RY}_k(2\beta_it)\notag\\e^{-iA_3\gamma_it}=\prod_{k=1}^N\text{RZ}_k(2\gamma_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\delta_it)\notag\\e^{-iB_1\epsilon_i}=\prod_{p<q}^N\text{RYY}_k(2J_{pq}\epsilon_it)\notag\\e^{-iB_1\delta_i}=\prod_{p<q}^N\text{RXX}_k(2J_{pq}\kappa_it)\notag\end{align}">
 </p>
 
-The objective function is the average fidelity between the ideal outputs and the obtained outputs in a number of time marks. In particular, it is
+The objective function is the average fidelity between the ideal outputs and the obtained outputs in a number of time marks. In particular, the optimization problem is
 <p align="center">
  <img src="https://latex.codecogs.com/svg.image?\max_{\boldsymbol{\theta}}\frac{1}{S}\sum_{s=1}^S\left|\langle0|e^{iHt_s}U(\boldsymbol{\theta},t_s)|0\rangle\right|^2">
 </p>
