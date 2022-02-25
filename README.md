@@ -20,7 +20,6 @@ Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf
 
 ## 3. Applying QAOA to achieve Hamiltonian 
 (Interested reader might find detailed notes in .ipynb file helpful)
-<img src="https://render.githubusercontent.com/render/math?math=">
 
 The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
 
