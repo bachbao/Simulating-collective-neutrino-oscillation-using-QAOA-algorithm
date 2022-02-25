@@ -21,7 +21,7 @@ Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf
 ## 3. Applying QAOA to achieve Hamiltonian
 
 The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
-![a](https://latex.codecogs.com/svg.latex?\Large&space;H = \sum_{k=1}^N \overrightarrow{b} \cdot \overrightarrow{\sigma_k} + \sum_{p<q}^N J_{pq} \overrightarrow{\sigma_p} \cdot \overrightarrow{\sigma_q})
+![a](https://latex.codecogs.com/svg.latex?\Large&space;H=\sum_{k=1}^N\overrightarrow{b}\cdot\overrightarrow{\sigma_k}+\sum_{p<q}^NJ_{pq}\overrightarrow{\sigma_p}\cdot\overrightarrow{\sigma_q})
 
 with the external field ![a](https://latex.codecogs.com/png.image?\dpi{110}%20\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)) and the pair coupling matrix ![a](https://latex.codecogs.com/png.image?\dpi{110}%20J_{pq}%20=%201%20-%20\cos(\theta_{pq})), where ![a](https://latex.codecogs.com/png.image?\dpi{110}%20\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}).
 ## 4. Result
