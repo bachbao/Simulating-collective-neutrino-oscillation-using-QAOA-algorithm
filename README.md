@@ -54,7 +54,7 @@ Those unitaries can be implemented by a sequence single- and two-qubit rotation 
 ![Exp3_Noiseless](/figures/exp3_noiseless.png "Noiseless")
 
 ### Experiment 4: 4 qubits - 4 layers - Time length from 1 to 6
-![Exp4_Noiseless](/figures/exp4.png "exp4")
+![Exp4_Noiseless](/figures/ex4.png "exp4")
 
 ## About us
 [Trong Duong Dinh](https://github.com/MyEntangled)- Korea Advanced Institute of Science and Technology, Year 3
