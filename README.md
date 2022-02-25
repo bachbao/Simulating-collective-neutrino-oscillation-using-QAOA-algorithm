@@ -16,10 +16,11 @@ neutrinos. However as stated above, quantum computers hold the promise to overco
 ## 2. Spin model for neutrino oscillation
 In our case, we are considering two-flavor case, therefore our system can be expressed as direction of momentum (denoted by q_i) and an amplitude for a neutrino of each energy E_i. The amplitudes that describe the being in the electron flavor or in a heavy (muon or tau) can be encoded in an SU(2) spinor basis. In this basis, the Hamiltonian can be written in terms of Pauli operators which can be charaterized as the sum of a one-body term, describing vacuum and forward scattering in matter and a two-body term, showing the neutrino-neutrino forward-scattering.
 
-Here we lend our final Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf?fbclid=IwAR2tZhjENa6-5z-XVVKu4VEPcE05QslG6C4XifwfqrPfNmiFzuoe97Sm5tA) with the their redefined value as our base model. Our job then is just simulate the Hamiltonian from the model.
+Here we borrow the Hamiltonian from [paper](https://arxiv.org/pdf/2102.12556.pdf?fbclid=IwAR2tZhjENa6-5z-XVVKu4VEPcE05QslG6C4XifwfqrPfNmiFzuoe97Sm5tA) with the their redefined value as our base model. Our job then is just simulate the Hamiltonian from the model.
 
 ## 3. Applying QAOA to achieve Hamiltonian
 
-With the Hamiltionian above, we start analyses it to apply QAOA algorithm, 
-
+The Hamiltonian that characterizes the system of $N$ interacting neutrinos (each represented by a qubit) is given by
+![a](https://latex.codecogs.com/png.image?\dpi{110}%20\begin{equation}H%20=%20\sum_{k=1}^N%20\overrightarrow{b}%20\cdot%20\overrightarrow{\sigma_k}%20+%20\sum_{p%3Cq}^N%20J_{pq}%20\overrightarrow{\sigma_p}%20\cdot%20\overrightarrow{\sigma_q}\end{equation})
+with the external field ![a](https://latex.codecogs.com/png.image?\dpi{110}%20\overrightarrow{b}%20=%20(b^x,b^y,b^z)%20=%20\left(\sqrt{1-0.925^2},%200,%20-0.925\right)) and the pair coupling matrix ![a](https://latex.codecogs.com/png.image?\dpi{110}%20J_{pq}%20=%201%20-%20\cos(\theta_{pq})), where ![a](https://latex.codecogs.com/png.image?\dpi{110}%20\theta_{pq}%20=%20\arccos(0.9)%20\frac{|p-q|}{N-1}).
 ## 4. Result
