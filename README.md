@@ -45,7 +45,7 @@ The objective function is the average fidelity between the ideal outputs and the
 </p>
 for statevector simulator and
 <p align="center">
- <img src="https://latex.codecogs.com/svg.image?\max_\boldsymbol{\theta}\frac{1}{S}\sum_{s=1}^S\left|\langle0|e^{iHt_s}\rho(\boldsymbol{\theta},t_s)e^{-iHt_s}|0\rangle\right|^2">
+ <img src="https://latex.codecogs.com/svg.image?\max_{\boldsymbol{\theta}}\frac{1}{S}\sum_{s=1}^S\left|\langle0|e^{iHt_s}\rho(\boldsymbol{\theta},t_s)e^{-iHt_s}|0\rangle\right|^2">
 </p>
 
 ## 4. Result
